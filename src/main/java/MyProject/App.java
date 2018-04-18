@@ -88,7 +88,7 @@ public class App
 //    	System.out.println(cust.getName() +" "+ cust.getId());
     	
     	Commodity com = em.find(Commodity.class, 10);
-    	System.out.println(com.getOrders());
+    	System.out.println(com);
     	
 //    	Orders ord = em.find(Orders.class, 6);
 //    	System.out.println(ord);
